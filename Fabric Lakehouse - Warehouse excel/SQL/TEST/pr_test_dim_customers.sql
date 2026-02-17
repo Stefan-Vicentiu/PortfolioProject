@@ -22,7 +22,7 @@ BEGIN
 BEGIN TRY    
 
     -- test error
-    DECLARE @TestEroare INT = 1/0;
+    -- DECLARE @TestEroare INT = 1/0;
 
     -- check if the table exists in the test_data schema
     IF NOT EXISTS (
